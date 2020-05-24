@@ -38,16 +38,41 @@ The following aspects of a language must be kept in mind while using it:
       It is similar to, but different from structural typing. An object's suitability is determined by the presence of certain methods and properties, rather than the type of the object itself. That is, if we have different types which have the same method, we can write code agnostically.
 ******************************************
 ### *Python*
+- Python is an interpreted, high-level, general purpose programming language.
+- import module is used to make speciality functions available.
+- Python's design philosophy emphasizes code readability with its notable use of significant whitespace.
+- print() outputs the data on the screen.
+- There are 5 data types: Numbers, Strings, List, Tuple, Dictionary.
+- " ** " >exponential calculation, " // " Floor division
+- Dicts can't be join with '+'.
+- Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.
+
+#### CLASSES AND OBJECTS 
+The concept of OOP allows us to model real world things using code.</br>
+Every object has attributes like (color, height, weight) which are object variables.</br>
+Every object has abilities like (walk, talk, eat) which are object functions.</br>
+You can't access this value directly because it is private.</br>
+You can inherit all of the variables and methods from another class.</br>
+Polymorphism allows use to refer to objects as their super class and the correct functions are called automatically.</br>
 
 ***********************************
 ### *Ruby*
 
 ************************************
 ### *Haskell*
-
+***About the language*** </br>Haskell is a purely Functional programming language with inferred, strong and static type discipline.
+Functional programming is very different from Imperative programming in which programs consist of a sequence of commands, which are strictly evaluated one after the other. A functional program is a single expression, which is executed by evaluating the expression. Compared to the traditional programming languages, Haskell allows us to write much shorter and cleaner code. It is also easier to maintain. Another advantage of Haskell is that there are no "side effects", that is, functions cannot change state like changing the contents of a variable. This seems limiting at first glance, but helps to minimise bugs in the code and makes it easy to debug. Haskell follows "lazy" evaluation, which means that it doesn't evaluate or calculate things unless it's really forced to.</br></br>
+***In this project*** </br> We will be using the Glasgow Haskell Compiler (GHC) which comes along with the Haskell Platform which also has useful packages included. Apart from the official documentation, we will use the book "Learn You a Haskell for Great Good!" as reference.</br></br>
+***Relevant Links*** </br>Docs: https://www.haskell.org/documentation/ </br>Reference: http://learnyouahaskell.com/chapters
 ************************************
 ### *Scala*
-
+***About the Language*** </br>
+Scala, developed by Martinn Odersky and his team, is a really cool modification of the legendary Java. It was developed with the main motive of enhancing the scalability of Java as languages like Rails and Python are scalable, but only to an extent. It inherits in itself properties of both, Object Oriented Languages and Functional Languages.
+Scala gives us control over the internal state of the variables by providing two types for variable declaration, var and val, the latter being immutable. It is a statically typed and an extensible programming language.</br></br>
+***In this project***</br>
+The official documentations for Scala were good enough for the team  to understand and appreciate Scala, which is a multiple paradigm language. Apart from the docs, however, we referred the book 'Scala for the Impatient' which covered almost all aspects of the Scala(ble) Language.</br></br>
+***Relevant Links***</br>
+Docs: https://docs.scala-lang.org/tour/tour-of-scala.html </br>
 
 
 *******
@@ -59,6 +84,13 @@ Following are the tasks given till now:
 2.[Haskell] To implement some simple functions.
 
 ************************************
+### Link to Repositories of the Team Members
+- Kartikeya Gupta: https://github.com/kartikcode/8W8L
+- Harish Adsule  : https://github.com/harishss3/8l8w
+
+************************************
 ### Contributed by: </br>
 - [Harish Adsule](https://github.com/harishss3)
 - [Kartikeya Gupta](https://github.com/kartikcode)
+- [Tej Prakash](https://github.com/tej4826)
+
